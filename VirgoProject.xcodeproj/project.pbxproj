@@ -1,0 +1,629 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C3ABBE852838D7AB00E92D03 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3ABBE842838D7AB00E92D03 /* AppDelegate.swift */; };
+		C3ABBE872838D7AB00E92D03 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3ABBE862838D7AB00E92D03 /* SceneDelegate.swift */; };
+		C3ABBE892838D7AB00E92D03 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3ABBE882838D7AB00E92D03 /* ViewController.swift */; };
+		C3ABBE8C2838D7AB00E92D03 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C3ABBE8A2838D7AB00E92D03 /* Main.storyboard */; };
+		C3ABBE8E2838D7AD00E92D03 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C3ABBE8D2838D7AD00E92D03 /* Assets.xcassets */; };
+		C3ABBE912838D7AD00E92D03 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C3ABBE8F2838D7AD00E92D03 /* LaunchScreen.storyboard */; };
+		C3ABBE9C2838D7AE00E92D03 /* VirgoProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3ABBE9B2838D7AE00E92D03 /* VirgoProjectTests.swift */; };
+		C3ABBEA62838D7AE00E92D03 /* VirgoProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3ABBEA52838D7AE00E92D03 /* VirgoProjectUITests.swift */; };
+		C3ABBEA82838D7AE00E92D03 /* VirgoProjectUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3ABBEA72838D7AE00E92D03 /* VirgoProjectUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C3ABBE982838D7AE00E92D03 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C3ABBE792838D7AA00E92D03 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C3ABBE802838D7AA00E92D03;
+			remoteInfo = VirgoProject;
+		};
+		C3ABBEA22838D7AE00E92D03 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C3ABBE792838D7AA00E92D03 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C3ABBE802838D7AA00E92D03;
+			remoteInfo = VirgoProject;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C3ABBE812838D7AB00E92D03 /* VirgoProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VirgoProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3ABBE842838D7AB00E92D03 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C3ABBE862838D7AB00E92D03 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		C3ABBE882838D7AB00E92D03 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C3ABBE8B2838D7AB00E92D03 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C3ABBE8D2838D7AD00E92D03 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C3ABBE902838D7AD00E92D03 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C3ABBE922838D7AD00E92D03 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C3ABBE972838D7AE00E92D03 /* VirgoProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VirgoProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3ABBE9B2838D7AE00E92D03 /* VirgoProjectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VirgoProjectTests.swift; sourceTree = "<group>"; };
+		C3ABBEA12838D7AE00E92D03 /* VirgoProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VirgoProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3ABBEA52838D7AE00E92D03 /* VirgoProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VirgoProjectUITests.swift; sourceTree = "<group>"; };
+		C3ABBEA72838D7AE00E92D03 /* VirgoProjectUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VirgoProjectUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C3ABBE7E2838D7AA00E92D03 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3ABBE942838D7AE00E92D03 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3ABBE9E2838D7AE00E92D03 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C3ABBE782838D7AA00E92D03 = {
+			isa = PBXGroup;
+			children = (
+				C3ABBE832838D7AB00E92D03 /* VirgoProject */,
+				C3ABBE9A2838D7AE00E92D03 /* VirgoProjectTests */,
+				C3ABBEA42838D7AE00E92D03 /* VirgoProjectUITests */,
+				C3ABBE822838D7AB00E92D03 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C3ABBE822838D7AB00E92D03 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C3ABBE812838D7AB00E92D03 /* VirgoProject.app */,
+				C3ABBE972838D7AE00E92D03 /* VirgoProjectTests.xctest */,
+				C3ABBEA12838D7AE00E92D03 /* VirgoProjectUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C3ABBE832838D7AB00E92D03 /* VirgoProject */ = {
+			isa = PBXGroup;
+			children = (
+				C3ABBE842838D7AB00E92D03 /* AppDelegate.swift */,
+				C3ABBE862838D7AB00E92D03 /* SceneDelegate.swift */,
+				C3ABBE882838D7AB00E92D03 /* ViewController.swift */,
+				C3ABBE8A2838D7AB00E92D03 /* Main.storyboard */,
+				C3ABBE8D2838D7AD00E92D03 /* Assets.xcassets */,
+				C3ABBE8F2838D7AD00E92D03 /* LaunchScreen.storyboard */,
+				C3ABBE922838D7AD00E92D03 /* Info.plist */,
+			);
+			path = VirgoProject;
+			sourceTree = "<group>";
+		};
+		C3ABBE9A2838D7AE00E92D03 /* VirgoProjectTests */ = {
+			isa = PBXGroup;
+			children = (
+				C3ABBE9B2838D7AE00E92D03 /* VirgoProjectTests.swift */,
+			);
+			path = VirgoProjectTests;
+			sourceTree = "<group>";
+		};
+		C3ABBEA42838D7AE00E92D03 /* VirgoProjectUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C3ABBEA52838D7AE00E92D03 /* VirgoProjectUITests.swift */,
+				C3ABBEA72838D7AE00E92D03 /* VirgoProjectUITestsLaunchTests.swift */,
+			);
+			path = VirgoProjectUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C3ABBE802838D7AA00E92D03 /* VirgoProject */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C3ABBEAB2838D7AE00E92D03 /* Build configuration list for PBXNativeTarget "VirgoProject" */;
+			buildPhases = (
+				C3ABBE7D2838D7AA00E92D03 /* Sources */,
+				C3ABBE7E2838D7AA00E92D03 /* Frameworks */,
+				C3ABBE7F2838D7AA00E92D03 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VirgoProject;
+			productName = VirgoProject;
+			productReference = C3ABBE812838D7AB00E92D03 /* VirgoProject.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C3ABBE962838D7AE00E92D03 /* VirgoProjectTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C3ABBEAE2838D7AE00E92D03 /* Build configuration list for PBXNativeTarget "VirgoProjectTests" */;
+			buildPhases = (
+				C3ABBE932838D7AE00E92D03 /* Sources */,
+				C3ABBE942838D7AE00E92D03 /* Frameworks */,
+				C3ABBE952838D7AE00E92D03 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C3ABBE992838D7AE00E92D03 /* PBXTargetDependency */,
+			);
+			name = VirgoProjectTests;
+			productName = VirgoProjectTests;
+			productReference = C3ABBE972838D7AE00E92D03 /* VirgoProjectTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C3ABBEA02838D7AE00E92D03 /* VirgoProjectUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C3ABBEB12838D7AE00E92D03 /* Build configuration list for PBXNativeTarget "VirgoProjectUITests" */;
+			buildPhases = (
+				C3ABBE9D2838D7AE00E92D03 /* Sources */,
+				C3ABBE9E2838D7AE00E92D03 /* Frameworks */,
+				C3ABBE9F2838D7AE00E92D03 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C3ABBEA32838D7AE00E92D03 /* PBXTargetDependency */,
+			);
+			name = VirgoProjectUITests;
+			productName = VirgoProjectUITests;
+			productReference = C3ABBEA12838D7AE00E92D03 /* VirgoProjectUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C3ABBE792838D7AA00E92D03 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					C3ABBE802838D7AA00E92D03 = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					C3ABBE962838D7AE00E92D03 = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = C3ABBE802838D7AA00E92D03;
+					};
+					C3ABBEA02838D7AE00E92D03 = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = C3ABBE802838D7AA00E92D03;
+					};
+				};
+			};
+			buildConfigurationList = C3ABBE7C2838D7AA00E92D03 /* Build configuration list for PBXProject "VirgoProject" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C3ABBE782838D7AA00E92D03;
+			productRefGroup = C3ABBE822838D7AB00E92D03 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C3ABBE802838D7AA00E92D03 /* VirgoProject */,
+				C3ABBE962838D7AE00E92D03 /* VirgoProjectTests */,
+				C3ABBEA02838D7AE00E92D03 /* VirgoProjectUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C3ABBE7F2838D7AA00E92D03 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3ABBE912838D7AD00E92D03 /* LaunchScreen.storyboard in Resources */,
+				C3ABBE8E2838D7AD00E92D03 /* Assets.xcassets in Resources */,
+				C3ABBE8C2838D7AB00E92D03 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3ABBE952838D7AE00E92D03 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3ABBE9F2838D7AE00E92D03 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C3ABBE7D2838D7AA00E92D03 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3ABBE892838D7AB00E92D03 /* ViewController.swift in Sources */,
+				C3ABBE852838D7AB00E92D03 /* AppDelegate.swift in Sources */,
+				C3ABBE872838D7AB00E92D03 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3ABBE932838D7AE00E92D03 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3ABBE9C2838D7AE00E92D03 /* VirgoProjectTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3ABBE9D2838D7AE00E92D03 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3ABBEA82838D7AE00E92D03 /* VirgoProjectUITestsLaunchTests.swift in Sources */,
+				C3ABBEA62838D7AE00E92D03 /* VirgoProjectUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C3ABBE992838D7AE00E92D03 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C3ABBE802838D7AA00E92D03 /* VirgoProject */;
+			targetProxy = C3ABBE982838D7AE00E92D03 /* PBXContainerItemProxy */;
+		};
+		C3ABBEA32838D7AE00E92D03 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C3ABBE802838D7AA00E92D03 /* VirgoProject */;
+			targetProxy = C3ABBEA22838D7AE00E92D03 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C3ABBE8A2838D7AB00E92D03 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C3ABBE8B2838D7AB00E92D03 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C3ABBE8F2838D7AD00E92D03 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C3ABBE902838D7AD00E92D03 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C3ABBEA92838D7AE00E92D03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C3ABBEAA2838D7AE00E92D03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C3ABBEAC2838D7AE00E92D03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V7VR8Q94RJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = VirgoProject/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rradityatama.VirgoProject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C3ABBEAD2838D7AE00E92D03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V7VR8Q94RJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = VirgoProject/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rradityatama.VirgoProject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C3ABBEAF2838D7AE00E92D03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V7VR8Q94RJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rradityatama.VirgoProjectTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VirgoProject.app/VirgoProject";
+			};
+			name = Debug;
+		};
+		C3ABBEB02838D7AE00E92D03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V7VR8Q94RJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rradityatama.VirgoProjectTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VirgoProject.app/VirgoProject";
+			};
+			name = Release;
+		};
+		C3ABBEB22838D7AE00E92D03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V7VR8Q94RJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rradityatama.VirgoProjectUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = VirgoProject;
+			};
+			name = Debug;
+		};
+		C3ABBEB32838D7AE00E92D03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V7VR8Q94RJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rradityatama.VirgoProjectUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = VirgoProject;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C3ABBE7C2838D7AA00E92D03 /* Build configuration list for PBXProject "VirgoProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3ABBEA92838D7AE00E92D03 /* Debug */,
+				C3ABBEAA2838D7AE00E92D03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C3ABBEAB2838D7AE00E92D03 /* Build configuration list for PBXNativeTarget "VirgoProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3ABBEAC2838D7AE00E92D03 /* Debug */,
+				C3ABBEAD2838D7AE00E92D03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C3ABBEAE2838D7AE00E92D03 /* Build configuration list for PBXNativeTarget "VirgoProjectTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3ABBEAF2838D7AE00E92D03 /* Debug */,
+				C3ABBEB02838D7AE00E92D03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C3ABBEB12838D7AE00E92D03 /* Build configuration list for PBXNativeTarget "VirgoProjectUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3ABBEB22838D7AE00E92D03 /* Debug */,
+				C3ABBEB32838D7AE00E92D03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C3ABBE792838D7AA00E92D03 /* Project object */;
+}
