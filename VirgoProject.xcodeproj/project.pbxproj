@@ -7,15 +7,58 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2906F7329FF2323FBC74BFDE /* Pods_VirgoProject_VirgoProjectUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14B581F9149052C328CF4F5F /* Pods_VirgoProject_VirgoProjectUITests.framework */; };
+		C32DCEAA283C10750090B069 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C32DCEA9283C10750090B069 /* HeaderView.swift */; };
+		C38FA118283BF1DC00EA9BDC /* TmdbListProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = C38FA117283BF1DC00EA9BDC /* TmdbListProtocol.swift */; };
+		C38FA126283BF4A800EA9BDC /* TmdbListRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C38FA125283BF4A800EA9BDC /* TmdbListRouter.swift */; };
+		C38FA128283BF4B200EA9BDC /* TmdbListEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = C38FA127283BF4B200EA9BDC /* TmdbListEntity.swift */; };
+		C38FA12A283BF4BD00EA9BDC /* TmdbListPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C38FA129283BF4BD00EA9BDC /* TmdbListPresenter.swift */; };
+		C38FA12C283BF4C800EA9BDC /* TmdbListInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = C38FA12B283BF4C800EA9BDC /* TmdbListInteractor.swift */; };
+		C38FA12E283BF4D600EA9BDC /* TmdbListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C38FA12D283BF4D600EA9BDC /* TmdbListViewController.swift */; };
+		C38FA131283BF64500EA9BDC /* NetworkHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = C38FA130283BF64500EA9BDC /* NetworkHelper.swift */; };
+		C38FA133283BF66400EA9BDC /* Dictionary+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C38FA132283BF66400EA9BDC /* Dictionary+Extension.swift */; };
+		C38FA136283BF7E200EA9BDC /* ListTrendingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C38FA135283BF7E200EA9BDC /* ListTrendingView.swift */; };
+		C38FA138283BF7EE00EA9BDC /* ListDiscoverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C38FA137283BF7EE00EA9BDC /* ListDiscoverView.swift */; };
+		C38FA13C283BF9EA00EA9BDC /* ItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C38FA13A283BF9EA00EA9BDC /* ItemCell.swift */; };
+		C38FA13D283BF9EA00EA9BDC /* ItemCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C38FA13B283BF9EA00EA9BDC /* ItemCell.xib */; };
+		C38FA140283C05B000EA9BDC /* StateListMovies.swift in Sources */ = {isa = PBXBuildFile; fileRef = C38FA13F283C05B000EA9BDC /* StateListMovies.swift */; };
+		C390FCBA283C5DEB008C399A /* TmdbDetailProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = C390FCB9283C5DEB008C399A /* TmdbDetailProtocol.swift */; };
+		C390FCBC283C5E06008C399A /* TmdbDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C390FCBB283C5E06008C399A /* TmdbDetailViewController.swift */; };
+		C390FCC0283C5E29008C399A /* TmdbDetailPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C390FCBF283C5E29008C399A /* TmdbDetailPresenter.swift */; };
+		C390FCC2283C5E34008C399A /* TmdbDetailRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C390FCC1283C5E34008C399A /* TmdbDetailRouter.swift */; };
+		C390FCC5283C5FDF008C399A /* TmdbDetailEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = C390FCC4283C5FDF008C399A /* TmdbDetailEntity.swift */; };
+		C390FCC9283C61F7008C399A /* TmdbDetailInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = C390FCC8283C61F7008C399A /* TmdbDetailInteractor.swift */; };
+		C390FCCB283C7ED7008C399A /* TmdbDetailBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C390FCCA283C7ED7008C399A /* TmdbDetailBaseViewController.swift */; };
+		C390FCCD283C7F8B008C399A /* ImageDownloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = C390FCCC283C7F8B008C399A /* ImageDownloader.swift */; };
+		C390FCD0283C81B6008C399A /* VoteAverageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C390FCCF283C81B6008C399A /* VoteAverageView.swift */; };
+		C390FCD2283CB316008C399A /* ContentMovieDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C390FCD1283CB316008C399A /* ContentMovieDetailView.swift */; };
+		C390FCE0283CF004008C399A /* TmdbRootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C390FCDF283CF004008C399A /* TmdbRootViewController.swift */; };
+		C390FCE3283CF040008C399A /* TabSegmentedControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = C390FCE2283CF040008C399A /* TabSegmentedControl.swift */; };
+		C390FCE7283CF46E008C399A /* TmdbTvShowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C390FCE6283CF46E008C399A /* TmdbTvShowViewController.swift */; };
+		C390FCEF283D0A65008C399A /* TmdbTvShowProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = C390FCEE283D0A65008C399A /* TmdbTvShowProtocol.swift */; };
+		C390FCF1283D0A75008C399A /* TmdbTvShowRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C390FCF0283D0A75008C399A /* TmdbTvShowRouter.swift */; };
+		C390FCF3283D0A85008C399A /* TmdbTvShowEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = C390FCF2283D0A85008C399A /* TmdbTvShowEntity.swift */; };
+		C390FCF5283D0A93008C399A /* TmdbTvShowPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C390FCF4283D0A93008C399A /* TmdbTvShowPresenter.swift */; };
+		C390FCF7283D0AA5008C399A /* TmdbTvShowInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = C390FCF6283D0AA4008C399A /* TmdbTvShowInteractor.swift */; };
+		C390FCFB283D1981008C399A /* ListTvShowCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C390FCF9283D1981008C399A /* ListTvShowCell.swift */; };
+		C390FCFC283D1981008C399A /* ListTvShowCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C390FCFA283D1981008C399A /* ListTvShowCell.xib */; };
+		C390FD00283D2DD5008C399A /* MainTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C390FCFF283D2DD5008C399A /* MainTabBarViewController.swift */; };
+		C390FD03283D3503008C399A /* AccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C390FD02283D3503008C399A /* AccountViewController.swift */; };
+		C390FD08283D3F71008C399A /* ErrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C390FD07283D3F71008C399A /* ErrorView.swift */; };
+		C390FD0A283D403A008C399A /* StateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C390FD09283D403A008C399A /* StateView.swift */; };
+		C390FD0C283D41EC008C399A /* TmdbListBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C390FD0B283D41EC008C399A /* TmdbListBaseViewController.swift */; };
+		C390FD11283D56BC008C399A /* ReviewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C390FD10283D56BC008C399A /* ReviewCell.swift */; };
+		C391D726283DBF1100A17E84 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = C391D725283DBF1100A17E84 /* Constant.swift */; };
 		C3ABBE852838D7AB00E92D03 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3ABBE842838D7AB00E92D03 /* AppDelegate.swift */; };
 		C3ABBE872838D7AB00E92D03 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3ABBE862838D7AB00E92D03 /* SceneDelegate.swift */; };
-		C3ABBE892838D7AB00E92D03 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3ABBE882838D7AB00E92D03 /* ViewController.swift */; };
 		C3ABBE8C2838D7AB00E92D03 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C3ABBE8A2838D7AB00E92D03 /* Main.storyboard */; };
 		C3ABBE8E2838D7AD00E92D03 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C3ABBE8D2838D7AD00E92D03 /* Assets.xcassets */; };
 		C3ABBE912838D7AD00E92D03 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C3ABBE8F2838D7AD00E92D03 /* LaunchScreen.storyboard */; };
 		C3ABBE9C2838D7AE00E92D03 /* VirgoProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3ABBE9B2838D7AE00E92D03 /* VirgoProjectTests.swift */; };
 		C3ABBEA62838D7AE00E92D03 /* VirgoProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3ABBEA52838D7AE00E92D03 /* VirgoProjectUITests.swift */; };
 		C3ABBEA82838D7AE00E92D03 /* VirgoProjectUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3ABBEA72838D7AE00E92D03 /* VirgoProjectUITestsLaunchTests.swift */; };
+		D4DD2155294DA8BAFD78B7B7 /* Pods_VirgoProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5F49B2D51C154A1C706C306 /* Pods_VirgoProject.framework */; };
+		F8A48B21D9C13A51A0910AF2 /* Pods_VirgoProjectTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44885E6B16A7F401D8198BF2 /* Pods_VirgoProjectTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,10 +79,56 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		00DF2F43A51114FBB10BAF21 /* Pods-VirgoProject-VirgoProjectUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VirgoProject-VirgoProjectUITests.release.xcconfig"; path = "Target Support Files/Pods-VirgoProject-VirgoProjectUITests/Pods-VirgoProject-VirgoProjectUITests.release.xcconfig"; sourceTree = "<group>"; };
+		14B581F9149052C328CF4F5F /* Pods_VirgoProject_VirgoProjectUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VirgoProject_VirgoProjectUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		44885E6B16A7F401D8198BF2 /* Pods_VirgoProjectTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VirgoProjectTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B75CDBBDB9553DE3D449A27 /* Pods-VirgoProject-VirgoProjectUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VirgoProject-VirgoProjectUITests.debug.xcconfig"; path = "Target Support Files/Pods-VirgoProject-VirgoProjectUITests/Pods-VirgoProject-VirgoProjectUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		6AEFFBE2C999FDB6FC3AAA29 /* Pods-VirgoProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VirgoProject.release.xcconfig"; path = "Target Support Files/Pods-VirgoProject/Pods-VirgoProject.release.xcconfig"; sourceTree = "<group>"; };
+		8E3322FFC9B1047EA46F0733 /* Pods-VirgoProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VirgoProject.debug.xcconfig"; path = "Target Support Files/Pods-VirgoProject/Pods-VirgoProject.debug.xcconfig"; sourceTree = "<group>"; };
+		C32DCEA9283C10750090B069 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		C38FA117283BF1DC00EA9BDC /* TmdbListProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TmdbListProtocol.swift; sourceTree = "<group>"; };
+		C38FA125283BF4A800EA9BDC /* TmdbListRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TmdbListRouter.swift; sourceTree = "<group>"; };
+		C38FA127283BF4B200EA9BDC /* TmdbListEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TmdbListEntity.swift; sourceTree = "<group>"; };
+		C38FA129283BF4BD00EA9BDC /* TmdbListPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TmdbListPresenter.swift; sourceTree = "<group>"; };
+		C38FA12B283BF4C800EA9BDC /* TmdbListInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TmdbListInteractor.swift; sourceTree = "<group>"; };
+		C38FA12D283BF4D600EA9BDC /* TmdbListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TmdbListViewController.swift; sourceTree = "<group>"; };
+		C38FA130283BF64500EA9BDC /* NetworkHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkHelper.swift; sourceTree = "<group>"; };
+		C38FA132283BF66400EA9BDC /* Dictionary+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Dictionary+Extension.swift"; sourceTree = "<group>"; };
+		C38FA135283BF7E200EA9BDC /* ListTrendingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListTrendingView.swift; sourceTree = "<group>"; };
+		C38FA137283BF7EE00EA9BDC /* ListDiscoverView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListDiscoverView.swift; sourceTree = "<group>"; };
+		C38FA13A283BF9EA00EA9BDC /* ItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemCell.swift; sourceTree = "<group>"; };
+		C38FA13B283BF9EA00EA9BDC /* ItemCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ItemCell.xib; sourceTree = "<group>"; };
+		C38FA13F283C05B000EA9BDC /* StateListMovies.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateListMovies.swift; sourceTree = "<group>"; };
+		C390FCB9283C5DEB008C399A /* TmdbDetailProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TmdbDetailProtocol.swift; sourceTree = "<group>"; };
+		C390FCBB283C5E06008C399A /* TmdbDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TmdbDetailViewController.swift; sourceTree = "<group>"; };
+		C390FCBF283C5E29008C399A /* TmdbDetailPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TmdbDetailPresenter.swift; sourceTree = "<group>"; };
+		C390FCC1283C5E34008C399A /* TmdbDetailRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TmdbDetailRouter.swift; sourceTree = "<group>"; };
+		C390FCC4283C5FDF008C399A /* TmdbDetailEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TmdbDetailEntity.swift; sourceTree = "<group>"; };
+		C390FCC8283C61F7008C399A /* TmdbDetailInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TmdbDetailInteractor.swift; sourceTree = "<group>"; };
+		C390FCCA283C7ED7008C399A /* TmdbDetailBaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TmdbDetailBaseViewController.swift; sourceTree = "<group>"; };
+		C390FCCC283C7F8B008C399A /* ImageDownloader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageDownloader.swift; sourceTree = "<group>"; };
+		C390FCCF283C81B6008C399A /* VoteAverageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoteAverageView.swift; sourceTree = "<group>"; };
+		C390FCD1283CB316008C399A /* ContentMovieDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentMovieDetailView.swift; sourceTree = "<group>"; };
+		C390FCDF283CF004008C399A /* TmdbRootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TmdbRootViewController.swift; sourceTree = "<group>"; };
+		C390FCE2283CF040008C399A /* TabSegmentedControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabSegmentedControl.swift; sourceTree = "<group>"; };
+		C390FCE6283CF46E008C399A /* TmdbTvShowViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TmdbTvShowViewController.swift; sourceTree = "<group>"; };
+		C390FCEE283D0A65008C399A /* TmdbTvShowProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TmdbTvShowProtocol.swift; sourceTree = "<group>"; };
+		C390FCF0283D0A75008C399A /* TmdbTvShowRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TmdbTvShowRouter.swift; sourceTree = "<group>"; };
+		C390FCF2283D0A85008C399A /* TmdbTvShowEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TmdbTvShowEntity.swift; sourceTree = "<group>"; };
+		C390FCF4283D0A93008C399A /* TmdbTvShowPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TmdbTvShowPresenter.swift; sourceTree = "<group>"; };
+		C390FCF6283D0AA4008C399A /* TmdbTvShowInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TmdbTvShowInteractor.swift; sourceTree = "<group>"; };
+		C390FCF9283D1981008C399A /* ListTvShowCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListTvShowCell.swift; sourceTree = "<group>"; };
+		C390FCFA283D1981008C399A /* ListTvShowCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ListTvShowCell.xib; sourceTree = "<group>"; };
+		C390FCFF283D2DD5008C399A /* MainTabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarViewController.swift; sourceTree = "<group>"; };
+		C390FD02283D3503008C399A /* AccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountViewController.swift; sourceTree = "<group>"; };
+		C390FD07283D3F71008C399A /* ErrorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorView.swift; sourceTree = "<group>"; };
+		C390FD09283D403A008C399A /* StateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateView.swift; sourceTree = "<group>"; };
+		C390FD0B283D41EC008C399A /* TmdbListBaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TmdbListBaseViewController.swift; sourceTree = "<group>"; };
+		C390FD10283D56BC008C399A /* ReviewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewCell.swift; sourceTree = "<group>"; };
+		C391D725283DBF1100A17E84 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
 		C3ABBE812838D7AB00E92D03 /* VirgoProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VirgoProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3ABBE842838D7AB00E92D03 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C3ABBE862838D7AB00E92D03 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		C3ABBE882838D7AB00E92D03 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		C3ABBE8B2838D7AB00E92D03 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C3ABBE8D2838D7AD00E92D03 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C3ABBE902838D7AD00E92D03 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +138,9 @@
 		C3ABBEA12838D7AE00E92D03 /* VirgoProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VirgoProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3ABBEA52838D7AE00E92D03 /* VirgoProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VirgoProjectUITests.swift; sourceTree = "<group>"; };
 		C3ABBEA72838D7AE00E92D03 /* VirgoProjectUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VirgoProjectUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D2D52519145A4994239B895A /* Pods-VirgoProjectTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VirgoProjectTests.release.xcconfig"; path = "Target Support Files/Pods-VirgoProjectTests/Pods-VirgoProjectTests.release.xcconfig"; sourceTree = "<group>"; };
+		D5A81F2EEFC671FD05FA406B /* Pods-VirgoProjectTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VirgoProjectTests.debug.xcconfig"; path = "Target Support Files/Pods-VirgoProjectTests/Pods-VirgoProjectTests.debug.xcconfig"; sourceTree = "<group>"; };
+		D5F49B2D51C154A1C706C306 /* Pods_VirgoProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VirgoProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +148,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D4DD2155294DA8BAFD78B7B7 /* Pods_VirgoProject.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +156,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F8A48B21D9C13A51A0910AF2 /* Pods_VirgoProjectTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +164,335 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2906F7329FF2323FBC74BFDE /* Pods_VirgoProject_VirgoProjectUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2A1B0DDD82DE025B05EBB9EB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D5F49B2D51C154A1C706C306 /* Pods_VirgoProject.framework */,
+				14B581F9149052C328CF4F5F /* Pods_VirgoProject_VirgoProjectUITests.framework */,
+				44885E6B16A7F401D8198BF2 /* Pods_VirgoProjectTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3C8D60E2E4A307B1B124ABEF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8E3322FFC9B1047EA46F0733 /* Pods-VirgoProject.debug.xcconfig */,
+				6AEFFBE2C999FDB6FC3AAA29 /* Pods-VirgoProject.release.xcconfig */,
+				5B75CDBBDB9553DE3D449A27 /* Pods-VirgoProject-VirgoProjectUITests.debug.xcconfig */,
+				00DF2F43A51114FBB10BAF21 /* Pods-VirgoProject-VirgoProjectUITests.release.xcconfig */,
+				D5A81F2EEFC671FD05FA406B /* Pods-VirgoProjectTests.debug.xcconfig */,
+				D2D52519145A4994239B895A /* Pods-VirgoProjectTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		C38FA10A283BF00100EA9BDC /* TmdbList */ = {
+			isa = PBXGroup;
+			children = (
+				C390FCE8283D0920008C399A /* TmdbMovie */,
+				C390FCE4283CF43C008C399A /* TmdbTvShow */,
+			);
+			path = TmdbList;
+			sourceTree = "<group>";
+		};
+		C38FA10B283BF08000EA9BDC /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				C38FA117283BF1DC00EA9BDC /* TmdbListProtocol.swift */,
+			);
+			path = Protocol;
+			sourceTree = "<group>";
+		};
+		C38FA10C283BF08700EA9BDC /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C38FA134283BF7CC00EA9BDC /* CustomViews */,
+				C38FA12D283BF4D600EA9BDC /* TmdbListViewController.swift */,
+				C390FD0B283D41EC008C399A /* TmdbListBaseViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C38FA10D283BF08E00EA9BDC /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				C38FA12B283BF4C800EA9BDC /* TmdbListInteractor.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		C38FA10E283BF09400EA9BDC /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				C38FA129283BF4BD00EA9BDC /* TmdbListPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		C38FA10F283BF09C00EA9BDC /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				C38FA127283BF4B200EA9BDC /* TmdbListEntity.swift */,
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		C38FA110283BF0A300EA9BDC /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				C38FA125283BF4A800EA9BDC /* TmdbListRouter.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		C38FA111283BF0C400EA9BDC /* TmdbDetail */ = {
+			isa = PBXGroup;
+			children = (
+				C390FCC3283C5FCC008C399A /* Entity */,
+				C38FA116283BF0ED00EA9BDC /* Router */,
+				C38FA115283BF0E300EA9BDC /* Presenter */,
+				C38FA114283BF0DC00EA9BDC /* Interactor */,
+				C38FA113283BF0D500EA9BDC /* View */,
+				C38FA112283BF0CC00EA9BDC /* Protocol */,
+			);
+			path = TmdbDetail;
+			sourceTree = "<group>";
+		};
+		C38FA112283BF0CC00EA9BDC /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				C390FCB9283C5DEB008C399A /* TmdbDetailProtocol.swift */,
+			);
+			path = Protocol;
+			sourceTree = "<group>";
+		};
+		C38FA113283BF0D500EA9BDC /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C390FCCE283C819C008C399A /* CustomViews */,
+				C390FCBB283C5E06008C399A /* TmdbDetailViewController.swift */,
+				C390FCCA283C7ED7008C399A /* TmdbDetailBaseViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C38FA114283BF0DC00EA9BDC /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				C390FCC8283C61F7008C399A /* TmdbDetailInteractor.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		C38FA115283BF0E300EA9BDC /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				C390FCBF283C5E29008C399A /* TmdbDetailPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		C38FA116283BF0ED00EA9BDC /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				C390FCC1283C5E34008C399A /* TmdbDetailRouter.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		C38FA12F283BF62F00EA9BDC /* Helper+Extension */ = {
+			isa = PBXGroup;
+			children = (
+				C38FA130283BF64500EA9BDC /* NetworkHelper.swift */,
+				C38FA132283BF66400EA9BDC /* Dictionary+Extension.swift */,
+				C38FA13F283C05B000EA9BDC /* StateListMovies.swift */,
+				C390FCCC283C7F8B008C399A /* ImageDownloader.swift */,
+				C390FD07283D3F71008C399A /* ErrorView.swift */,
+				C390FD09283D403A008C399A /* StateView.swift */,
+				C391D725283DBF1100A17E84 /* Constant.swift */,
+			);
+			path = "Helper+Extension";
+			sourceTree = "<group>";
+		};
+		C38FA134283BF7CC00EA9BDC /* CustomViews */ = {
+			isa = PBXGroup;
+			children = (
+				C38FA139283BF9BD00EA9BDC /* Cell */,
+				C38FA135283BF7E200EA9BDC /* ListTrendingView.swift */,
+				C38FA137283BF7EE00EA9BDC /* ListDiscoverView.swift */,
+				C32DCEA9283C10750090B069 /* HeaderView.swift */,
+			);
+			path = CustomViews;
+			sourceTree = "<group>";
+		};
+		C38FA139283BF9BD00EA9BDC /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				C38FA13A283BF9EA00EA9BDC /* ItemCell.swift */,
+				C38FA13B283BF9EA00EA9BDC /* ItemCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		C390FCC3283C5FCC008C399A /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				C390FCC4283C5FDF008C399A /* TmdbDetailEntity.swift */,
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		C390FCCE283C819C008C399A /* CustomViews */ = {
+			isa = PBXGroup;
+			children = (
+				C390FD0F283D5676008C399A /* Cell */,
+				C390FCCF283C81B6008C399A /* VoteAverageView.swift */,
+				C390FCD1283CB316008C399A /* ContentMovieDetailView.swift */,
+			);
+			path = CustomViews;
+			sourceTree = "<group>";
+		};
+		C390FCDE283CEFDA008C399A /* TmdbRoot */ = {
+			isa = PBXGroup;
+			children = (
+				C390FCE1283CF01C008C399A /* CustomView */,
+				C390FCDF283CF004008C399A /* TmdbRootViewController.swift */,
+			);
+			path = TmdbRoot;
+			sourceTree = "<group>";
+		};
+		C390FCE1283CF01C008C399A /* CustomView */ = {
+			isa = PBXGroup;
+			children = (
+				C390FCE2283CF040008C399A /* TabSegmentedControl.swift */,
+			);
+			path = CustomView;
+			sourceTree = "<group>";
+		};
+		C390FCE4283CF43C008C399A /* TmdbTvShow */ = {
+			isa = PBXGroup;
+			children = (
+				C390FCED283D0A35008C399A /* Protocol */,
+				C390FCEC283D0A17008C399A /* Router */,
+				C390FCEB283D0A11008C399A /* Entity */,
+				C390FCEA283D0A03008C399A /* Presenter */,
+				C390FCE9283D099B008C399A /* Interactor */,
+				C390FCE5283CF44A008C399A /* View */,
+			);
+			path = TmdbTvShow;
+			sourceTree = "<group>";
+		};
+		C390FCE5283CF44A008C399A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C390FCF8283D1959008C399A /* Cell */,
+				C390FCE6283CF46E008C399A /* TmdbTvShowViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C390FCE8283D0920008C399A /* TmdbMovie */ = {
+			isa = PBXGroup;
+			children = (
+				C38FA110283BF0A300EA9BDC /* Router */,
+				C38FA10F283BF09C00EA9BDC /* Entity */,
+				C38FA10E283BF09400EA9BDC /* Presenter */,
+				C38FA10D283BF08E00EA9BDC /* Interactor */,
+				C38FA10C283BF08700EA9BDC /* View */,
+				C38FA10B283BF08000EA9BDC /* Protocol */,
+			);
+			path = TmdbMovie;
+			sourceTree = "<group>";
+		};
+		C390FCE9283D099B008C399A /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				C390FCF6283D0AA4008C399A /* TmdbTvShowInteractor.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		C390FCEA283D0A03008C399A /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				C390FCF4283D0A93008C399A /* TmdbTvShowPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		C390FCEB283D0A11008C399A /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				C390FCF2283D0A85008C399A /* TmdbTvShowEntity.swift */,
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		C390FCEC283D0A17008C399A /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				C390FCF0283D0A75008C399A /* TmdbTvShowRouter.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		C390FCED283D0A35008C399A /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				C390FCEE283D0A65008C399A /* TmdbTvShowProtocol.swift */,
+			);
+			path = Protocol;
+			sourceTree = "<group>";
+		};
+		C390FCF8283D1959008C399A /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				C390FCF9283D1981008C399A /* ListTvShowCell.swift */,
+				C390FCFA283D1981008C399A /* ListTvShowCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		C390FCFD283D2D96008C399A /* Account */ = {
+			isa = PBXGroup;
+			children = (
+				C390FD01283D34E8008C399A /* View */,
+			);
+			path = Account;
+			sourceTree = "<group>";
+		};
+		C390FCFE283D2D9F008C399A /* MainTabbar */ = {
+			isa = PBXGroup;
+			children = (
+				C390FCFF283D2DD5008C399A /* MainTabBarViewController.swift */,
+			);
+			path = MainTabbar;
+			sourceTree = "<group>";
+		};
+		C390FD01283D34E8008C399A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C390FD02283D3503008C399A /* AccountViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C390FD0F283D5676008C399A /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				C390FD10283D56BC008C399A /* ReviewCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
 		C3ABBE782838D7AA00E92D03 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +500,8 @@
 				C3ABBE9A2838D7AE00E92D03 /* VirgoProjectTests */,
 				C3ABBEA42838D7AE00E92D03 /* VirgoProjectUITests */,
 				C3ABBE822838D7AB00E92D03 /* Products */,
+				3C8D60E2E4A307B1B124ABEF /* Pods */,
+				2A1B0DDD82DE025B05EBB9EB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,9 +518,14 @@
 		C3ABBE832838D7AB00E92D03 /* VirgoProject */ = {
 			isa = PBXGroup;
 			children = (
+				C390FCFE283D2D9F008C399A /* MainTabbar */,
+				C390FCFD283D2D96008C399A /* Account */,
+				C390FCDE283CEFDA008C399A /* TmdbRoot */,
+				C38FA12F283BF62F00EA9BDC /* Helper+Extension */,
+				C38FA111283BF0C400EA9BDC /* TmdbDetail */,
+				C38FA10A283BF00100EA9BDC /* TmdbList */,
 				C3ABBE842838D7AB00E92D03 /* AppDelegate.swift */,
 				C3ABBE862838D7AB00E92D03 /* SceneDelegate.swift */,
-				C3ABBE882838D7AB00E92D03 /* ViewController.swift */,
 				C3ABBE8A2838D7AB00E92D03 /* Main.storyboard */,
 				C3ABBE8D2838D7AD00E92D03 /* Assets.xcassets */,
 				C3ABBE8F2838D7AD00E92D03 /* LaunchScreen.storyboard */,
@@ -134,9 +558,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C3ABBEAB2838D7AE00E92D03 /* Build configuration list for PBXNativeTarget "VirgoProject" */;
 			buildPhases = (
+				6F03D3C2459181B226665DF2 /* [CP] Check Pods Manifest.lock */,
 				C3ABBE7D2838D7AA00E92D03 /* Sources */,
 				C3ABBE7E2838D7AA00E92D03 /* Frameworks */,
 				C3ABBE7F2838D7AA00E92D03 /* Resources */,
+				8B894ED106F1F50760E98F24 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -151,6 +577,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C3ABBEAE2838D7AE00E92D03 /* Build configuration list for PBXNativeTarget "VirgoProjectTests" */;
 			buildPhases = (
+				9119EABF53100FBA63DA911A /* [CP] Check Pods Manifest.lock */,
 				C3ABBE932838D7AE00E92D03 /* Sources */,
 				C3ABBE942838D7AE00E92D03 /* Frameworks */,
 				C3ABBE952838D7AE00E92D03 /* Resources */,
@@ -169,9 +596,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C3ABBEB12838D7AE00E92D03 /* Build configuration list for PBXNativeTarget "VirgoProjectUITests" */;
 			buildPhases = (
+				4ECD0642FE64FF6E425996ED /* [CP] Check Pods Manifest.lock */,
 				C3ABBE9D2838D7AE00E92D03 /* Sources */,
 				C3ABBE9E2838D7AE00E92D03 /* Frameworks */,
 				C3ABBE9F2838D7AE00E92D03 /* Resources */,
+				2B01C260AFE6CFF33450D64D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -231,8 +660,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C38FA13D283BF9EA00EA9BDC /* ItemCell.xib in Resources */,
 				C3ABBE912838D7AD00E92D03 /* LaunchScreen.storyboard in Resources */,
 				C3ABBE8E2838D7AD00E92D03 /* Assets.xcassets in Resources */,
+				C390FCFC283D1981008C399A /* ListTvShowCell.xib in Resources */,
 				C3ABBE8C2838D7AB00E92D03 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -253,14 +684,155 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2B01C260AFE6CFF33450D64D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VirgoProject-VirgoProjectUITests/Pods-VirgoProject-VirgoProjectUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VirgoProject-VirgoProjectUITests/Pods-VirgoProject-VirgoProjectUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-VirgoProject-VirgoProjectUITests/Pods-VirgoProject-VirgoProjectUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4ECD0642FE64FF6E425996ED /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-VirgoProject-VirgoProjectUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6F03D3C2459181B226665DF2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-VirgoProject-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8B894ED106F1F50760E98F24 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VirgoProject/Pods-VirgoProject-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VirgoProject/Pods-VirgoProject-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-VirgoProject/Pods-VirgoProject-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9119EABF53100FBA63DA911A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-VirgoProjectTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C3ABBE7D2838D7AA00E92D03 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C3ABBE892838D7AB00E92D03 /* ViewController.swift in Sources */,
+				C38FA13C283BF9EA00EA9BDC /* ItemCell.swift in Sources */,
+				C390FCC5283C5FDF008C399A /* TmdbDetailEntity.swift in Sources */,
+				C390FD08283D3F71008C399A /* ErrorView.swift in Sources */,
+				C390FD03283D3503008C399A /* AccountViewController.swift in Sources */,
+				C390FD0A283D403A008C399A /* StateView.swift in Sources */,
+				C390FCF1283D0A75008C399A /* TmdbTvShowRouter.swift in Sources */,
+				C38FA128283BF4B200EA9BDC /* TmdbListEntity.swift in Sources */,
+				C390FCCD283C7F8B008C399A /* ImageDownloader.swift in Sources */,
+				C390FCFB283D1981008C399A /* ListTvShowCell.swift in Sources */,
+				C390FCE7283CF46E008C399A /* TmdbTvShowViewController.swift in Sources */,
+				C390FCCB283C7ED7008C399A /* TmdbDetailBaseViewController.swift in Sources */,
+				C390FD00283D2DD5008C399A /* MainTabBarViewController.swift in Sources */,
+				C390FCD2283CB316008C399A /* ContentMovieDetailView.swift in Sources */,
+				C38FA131283BF64500EA9BDC /* NetworkHelper.swift in Sources */,
+				C38FA12E283BF4D600EA9BDC /* TmdbListViewController.swift in Sources */,
 				C3ABBE852838D7AB00E92D03 /* AppDelegate.swift in Sources */,
+				C38FA126283BF4A800EA9BDC /* TmdbListRouter.swift in Sources */,
+				C390FCC0283C5E29008C399A /* TmdbDetailPresenter.swift in Sources */,
+				C390FCF5283D0A93008C399A /* TmdbTvShowPresenter.swift in Sources */,
+				C390FD0C283D41EC008C399A /* TmdbListBaseViewController.swift in Sources */,
+				C38FA118283BF1DC00EA9BDC /* TmdbListProtocol.swift in Sources */,
+				C390FD11283D56BC008C399A /* ReviewCell.swift in Sources */,
+				C390FCE0283CF004008C399A /* TmdbRootViewController.swift in Sources */,
 				C3ABBE872838D7AB00E92D03 /* SceneDelegate.swift in Sources */,
+				C38FA140283C05B000EA9BDC /* StateListMovies.swift in Sources */,
+				C38FA136283BF7E200EA9BDC /* ListTrendingView.swift in Sources */,
+				C390FCC9283C61F7008C399A /* TmdbDetailInteractor.swift in Sources */,
+				C390FCE3283CF040008C399A /* TabSegmentedControl.swift in Sources */,
+				C32DCEAA283C10750090B069 /* HeaderView.swift in Sources */,
+				C390FCF3283D0A85008C399A /* TmdbTvShowEntity.swift in Sources */,
+				C390FCF7283D0AA5008C399A /* TmdbTvShowInteractor.swift in Sources */,
+				C391D726283DBF1100A17E84 /* Constant.swift in Sources */,
+				C390FCEF283D0A65008C399A /* TmdbTvShowProtocol.swift in Sources */,
+				C38FA12C283BF4C800EA9BDC /* TmdbListInteractor.swift in Sources */,
+				C38FA12A283BF4BD00EA9BDC /* TmdbListPresenter.swift in Sources */,
+				C38FA133283BF66400EA9BDC /* Dictionary+Extension.swift in Sources */,
+				C390FCC2283C5E34008C399A /* TmdbDetailRouter.swift in Sources */,
+				C390FCD0283C81B6008C399A /* VoteAverageView.swift in Sources */,
+				C38FA138283BF7EE00EA9BDC /* ListDiscoverView.swift in Sources */,
+				C390FCBA283C5DEB008C399A /* TmdbDetailProtocol.swift in Sources */,
+				C390FCBC283C5E06008C399A /* TmdbDetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -367,7 +939,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -422,7 +994,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -434,6 +1006,7 @@
 		};
 		C3ABBEAC2838D7AE00E92D03 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8E3322FFC9B1047EA46F0733 /* Pods-VirgoProject.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -445,8 +1018,10 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -462,6 +1037,7 @@
 		};
 		C3ABBEAD2838D7AE00E92D03 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6AEFFBE2C999FDB6FC3AAA29 /* Pods-VirgoProject.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -473,8 +1049,10 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -490,6 +1068,7 @@
 		};
 		C3ABBEAF2838D7AE00E92D03 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D5A81F2EEFC671FD05FA406B /* Pods-VirgoProjectTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -515,6 +1094,7 @@
 		};
 		C3ABBEB02838D7AE00E92D03 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D2D52519145A4994239B895A /* Pods-VirgoProjectTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -540,6 +1120,7 @@
 		};
 		C3ABBEB22838D7AE00E92D03 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B75CDBBDB9553DE3D449A27 /* Pods-VirgoProject-VirgoProjectUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -563,6 +1144,7 @@
 		};
 		C3ABBEB32838D7AE00E92D03 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 00DF2F43A51114FBB10BAF21 /* Pods-VirgoProject-VirgoProjectUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

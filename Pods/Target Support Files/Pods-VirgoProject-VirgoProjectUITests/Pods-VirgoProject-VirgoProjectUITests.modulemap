@@ -1,0 +1,6 @@
+framework module Pods_VirgoProject_VirgoProjectUITests {
+  umbrella header "Pods-VirgoProject-VirgoProjectUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
