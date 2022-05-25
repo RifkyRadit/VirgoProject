@@ -19,8 +19,6 @@ protocol ViewToPresenterListProtocol: AnyObject {
     
     func viewDidLoad()
     
-    func numberOfItemsInSection() -> Int
-    func urlStringImagePoster(indexPath: IndexPath) -> String?
     func didSelectRowAt(index: Int, stateMovies: StateListMovies)
 }
 

@@ -22,14 +22,6 @@ class TmdbListPresenter: ViewToPresenterListProtocol {
         interactor?.fetchDiscoverMovie()
     }
     
-    func numberOfItemsInSection() -> Int {
-        return 0
-    }
-    
-    func urlStringImagePoster(indexPath: IndexPath) -> String? {
-        return nil
-    }
-    
     func didSelectRowAt(index: Int, stateMovies: StateListMovies) {
         guard let view = self.view, let viewController = view as? TmdbListViewController else {
             return
@@ -51,9 +43,6 @@ class TmdbListPresenter: ViewToPresenterListProtocol {
 
             let itemData = listDiscoverMovies[index]
             self.router?.navigateToDetail(on: viewController, stateMovie: .discoverMovies(itemData))
-            
-        default:
-            break
         }
     }
 }

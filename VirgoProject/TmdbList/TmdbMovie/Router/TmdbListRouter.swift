@@ -43,8 +43,6 @@ class TmdbListRouter: PresenterToRouterListProtocol {
             }
 
             titleMovie = discoverData.title
-        default:
-            break
         }
         
         DispatchQueue.main.async {
